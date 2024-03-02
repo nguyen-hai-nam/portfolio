@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/icon/favicon.svg" type="image/x-icon">
+
+        <!--=============== CSS ===============-->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!--=============== JAVASCRIPT ===============-->
+        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+        <title>Nguyen Hai Nam Portfolio</title>
+    </head>
+    <body id="body" class="p-8 bg-red-50">
+        <!--=============== HEADER ===============-->
+        <header>
+            <nav class="relative flex justify-start items-center gap-8">
+                <ul class="flex gap-4">
+                    <li class="underline-offset-8 hover:underline">
+                        <a href="#projects" class="nav__link">PROJECTS</a>
+                    </li>
+                    <li class="underline-offset-8 hover:underline">
+                        <a href="#contact" class="nav__link">CONTACT</a>
+                    </li>
+                </ul>
+                <div class="absolute left-1/2 -translate-x-1/2 text-3xl">
+                    Portfolio
+                </div>
+            </nav>
+        </header>
+
+        <main class="flex flex-col">
+            <!--=============== HEADLINE ===============-->
+            <section id="headline" class="flex items-center h-[44rem]">
+                <h1 id="headline-text" class="mx-auto w-2/3 text-center text-5xl font-mono"></h1>
+            </section>
+
+            <!--=============== PROJECTS ===============-->
+            <section id="projects" class="px-[4%] grid grid-cols-3 grid-rows-2 gap-x-[8%] gap-y-[4%]">
+                <div class="flex flex-col items-center">
+                    <div class="w-full h-full overflow-hidden drop-shadow-xl">
+                        <img class="w-full h-full object-cover" src="https://i.pinimg.com/564x/12/ab/0e/12ab0e77331e9608a1601b01491af8cb.jpg" alt="">
+                    </div>
+                    <p class="mt-4 text-lg">Project 1</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-full h-full overflow-hidden drop-shadow-xl">
+                        <img class="w-full h-full object-cover" src="https://i.pinimg.com/564x/38/90/01/389001a3b977eb6844caf210a956e23f.jpg" alt="">
+                    </div>
+                    <p class="mt-4 text-lg">Project 2</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-full h-full overflow-hidden drop-shadow-xl">
+                        <img class="w-full h-full object-cover" src="https://i.pinimg.com/564x/78/63/55/786355e97a47e95b108f2bb3fdeaa057.jpg" alt="">
+                    </div>
+                    <p class="mt-4 text-lg">Project 3</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-full h-full overflow-hidden drop-shadow-xl">
+                        <img class="w-full h-full object-cover" src="https://i.pinimg.com/564x/83/cb/1b/83cb1bac4e3bce7d5c478a52f9f4d4fc.jpg" alt="">
+                    </div>
+                    <p class="mt-4 text-lg">Project 4</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-full h-full overflow-hidden drop-shadow-xl">
+                        <img class="w-full h-full object-cover" src="https://i.pinimg.com/736x/bb/9a/e1/bb9ae19cf074aca14a108e92b87759df.jpg" alt="">
+                    </div>
+                    <p class="mt-4 text-lg">Project 5</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-full h-full overflow-hidden drop-shadow-xl">
+                        <img class="w-full h-full object-cover" src="https://i.pinimg.com/564x/74/ae/e2/74aee2c60ec325e357039173b4ee3772.jpg" alt="">
+                    </div>
+                    <p class="mt-4 text-lg">Project 6</p>
+                </div>
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section id="contact" class="mt-64 px-[4%] grid grid-cols-12 grid-rows-1 gap-[8%]">
+                <div class="col-span-7 flex justify-center items-center bg-slate-900 shadow-lg">
+                    <p class="py-[24%] px-[12%] text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl text-white italic line-clamp">YOU ARE MY FAVORITE NOTIFICATION</p>
+                </div>
+                <div class="h-full col-span-5">
+                    <h1 class="my-8 text-3xl">Contact</h1>
+                    <ul class="my-8 flex flex-col gap-6">
+                        <li>
+                            <a href="mailto: work.nguyenhainam@gmail.com" class="flex items-center gap-4 underline-offset-8 hover:underline">
+                                <img class="w-6 h-6 object-cover" src="assets/icon/email.svg" alt="email icon">
+                                <p class="italic">work.nguyenhainam@gmail.com</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/nguyen-hai-nam-1955b8295/" target="_blank" class="flex items-center gap-4 underline-offset-8 hover:underline">
+                                <img class="w-6 h-6 object-cover" src="assets/icon/linkedin.svg" alt="linkedin logo">
+                                <p class="italic">Nguyen Hai Nam</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/nguyen-hai-nam" target="_blank" class="flex items-center gap-4 underline-offset-8 hover:underline">
+                                <img class="w-6 h-6 object-cover" src="assets/icon/github.svg" alt="github icon">
+                                <p class="italic">nguyen-hai-nam</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/_hainam" target="_blank" class="flex items-center gap-4 underline-offset-8 hover:underline">
+                                <img class="w-6 h-6 object-cover" src="assets/icon/instagram.svg" alt="instagram icon">
+                                <p class="italic">_hainam</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@hndwd" target="_blank" class="flex items-center gap-4 underline-offset-8 hover:underline">
+                                <img class="w-6 h-6 object-cover" src="assets/icon/tiktok.svg" alt="tiktok icon">
+                                <p class="italic">@hndwd</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="h-40 footer section flex justify-center items-end">
+            <a href="#body" class="text-sm underline-offset-8 hover:underline">BACK TO TOP</a>
+        </footer>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="main.js"></script>
+
+    </body>
+</html>
